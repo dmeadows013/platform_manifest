@@ -33,6 +33,8 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/htc/msm8660-common" name="dmeadows013/platform_device_htc_msm8660-common" remote="aokp" revision="jb" />
+  <project path="device/htc/vigor" name="dmeadows013/platform_device_htc_vigor" remote="aokp" revision="jb" />
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -335,7 +337,7 @@
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
+  <project path="vendor/aokp" name="dmeadows013/platform_vendor_aokp" remote="aokp" revision="jb" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb" />
@@ -356,4 +358,5 @@
   <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
   <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
   <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
+  <project path="vendor/htc/vigor" name="dmeadows013/platform_vendor_htc_vigor" remote="aokp" revision="jb" />
 </manifest>
